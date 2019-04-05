@@ -1,6 +1,6 @@
 # Neural Machine Translation - Regressing Word Embeddings (NMT - ReWE)
 
-This code has been developed building upon the open sourced OpenNMT toolkit.
+This code has been developed building upon the open sourced OpenNMT-py toolkit.
 
 Table of Contents
 =================
@@ -84,4 +84,8 @@ Now you have a model which you can use to predict on new data. We do this by run
 
 If you want to predict the sentences using the regressed word embeddings and a nearest neighbour search, you can use the option '-emb_decoding'.
 
+### Data
 
+Data used in the paper can be downloaded from the [IWSLT 2016](https://sites.google.com/site/iwsltevaluation2016/data-provided) (for en-fr and cs-en) and from [WMT16 IT-domain translation task](http://www.statmt.org/wmt16/it-translation-task.html) (eu-en).
+
+Fasttext embeddings can be downloaded from [here](https://fasttext.cc/docs/en/crawl-vectors.html).
